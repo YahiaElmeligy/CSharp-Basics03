@@ -94,6 +94,19 @@
                 Console.WriteLine(book);
             }
 
+
+
+            // Answer Question 9
+
+            foreach (string book in books)
+            {
+                if (book == "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+                Console.WriteLine(book);
+            }
+
         }
     }
 }
