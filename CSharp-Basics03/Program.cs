@@ -46,6 +46,16 @@
                 Console.WriteLine($"{i + 1}. {books[i]}");
             }
 
+
+            // Answer Question 5
+
+            int wIndex = 0;
+            while (wIndex < books.Length)
+            {
+                Console.WriteLine(books[wIndex]);
+                wIndex++;
+            }
+
         }
     }
 }
