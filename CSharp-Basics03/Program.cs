@@ -81,6 +81,19 @@
                 Console.WriteLine(book);
             }
 
+
+
+            // Answer Question 8
+
+            foreach (string book in books)
+            {
+                if (book == "Refactoring")
+                {
+                    break;
+                }
+                Console.WriteLine(book);
+            }
+
         }
     }
 }
