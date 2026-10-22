@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+
             // Answer Question 1
 
             int pages = 464;
@@ -12,6 +13,7 @@
             {
                 Console.WriteLine("You can borrow this book");
             }
+
 
 
             // Answer Question 2
@@ -30,12 +32,14 @@
                     break;
             }
 
+           
 
             // Answer Question 3
 
             int bookPages = 464;
             string sizeLabel = bookPages > 300 ? "Long Book" : "Short Book";
             Console.WriteLine(sizeLabel);
+
 
 
             // Answer Question 4
@@ -45,6 +49,7 @@
             {
                 Console.WriteLine($"{i + 1}. {books[i]}");
             }
+
 
 
             // Answer Question 5
@@ -66,6 +71,15 @@
                 Console.WriteLine("Checking book...");
                 count++;
             } while (count <= 3);
+
+
+
+            // Answer Question 7
+
+            foreach (string book in books)
+            {
+                Console.WriteLine(book);
+            }
 
         }
     }
