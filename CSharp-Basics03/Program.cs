@@ -30,6 +30,13 @@
                     break;
             }
 
+
+            // Answer Question 3
+
+            int bookPages = 464;
+            string sizeLabel = bookPages > 300 ? "Long Book" : "Short Book";
+            Console.WriteLine(sizeLabel);
+
         }
     }
 }
