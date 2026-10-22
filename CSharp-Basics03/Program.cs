@@ -56,6 +56,17 @@
                 wIndex++;
             }
 
+
+
+            // Answer Question 6
+
+            int count = 1;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                count++;
+            } while (count <= 3);
+
         }
     }
 }
