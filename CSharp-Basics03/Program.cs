@@ -107,6 +107,22 @@
                 Console.WriteLine(book);
             }
 
+
+
+            // Answer Question 10
+
+            PrintFirstBook(books);
+
+            static void PrintFirstBook(string[] booksArray)
+            {
+                if (booksArray.Length == 0)
+                {
+                    return;
+                }
+                Console.WriteLine(booksArray[0]);
+            }
+           
+
         }
     }
 }
